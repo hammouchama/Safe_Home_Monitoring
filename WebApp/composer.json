@@ -1,0 +1,17 @@
+{
+    "name": "marwan/arduino",
+    "require": {
+        "twilio/sdk": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Marwan\\Arduino\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MarwanEA",
+            "email": "marwanelaoumrani@gmail.com"
+        }
+    ]
+}

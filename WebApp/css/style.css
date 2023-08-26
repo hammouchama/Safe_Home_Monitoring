@@ -1,0 +1,239 @@
+.center-div {
+  margin: auto;
+  max-width: 95%;
+  width: 900px;
+  padding: 10px;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #fdfffc;
+}
+
+header{
+  width: 100% ;
+  background: linear-gradient(to right, #FFB703, #FB8500);
+}
+header .Logo{
+  margin: auto;
+  max-width: 1000px;
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  letter-spacing: -5px;
+}
+.desc{
+  font-size: 20px;
+  color: #ffffff; 
+  font-family: 'Pacifico', cursive;
+  font-weight: bold;
+  line-height: 0.6em;
+  padding-bottom: 15px;
+
+}
+
+.chart {
+  background-color: white;
+}
+
+
+
+
+.status{
+  color: #023047;
+  background-color: #f2f2f2;
+  margin: 10px 0px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.status h2 {
+  font-size: 24px;
+  color: #333;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.status p {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 5px;
+}
+
+
+
+
+
+/* FOR Mediem screens */
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 36px;
+    letter-spacing: -4px;
+  }
+  .desc{
+    font-size: 14px;
+  }
+}
+/* FOR Small screens */
+@media screen and (max-width: 400px) {
+  .title {
+    font-size: 30px;
+    letter-spacing: -4px;
+  }
+  .desc{
+    font-size: 10px;
+  }
+}
+
+/* CSS */
+.button-1 {
+  align-items: center;
+  appearance: button;
+  background-color: #0276FF;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: "RM Neue", sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  padding: 10px 21px;
+  text-align: center;
+  text-transform: none;
+  transition: color .13s ease-in-out, background .13s ease-in-out, opacity .13s ease-in-out, box-shadow .13s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:active {
+  background-color: #006AE8;
+}
+
+.button-1:hover {
+  background-color: #1C84FF;
+}
+
+
+.button-2 {
+  align-items: center;
+  appearance: button;
+  background-color: #ffbe0b;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: "RM Neue", sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  padding: 10px 21px;
+  text-align: center;
+  text-transform: none;
+  transition: color .13s ease-in-out, background .13s ease-in-out, opacity .13s ease-in-out, box-shadow .13s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-2:active {
+  background-color: #fdbc08;
+}
+
+.button-2:hover {
+  background-color: #ffc935;
+}
+
+
+.button-3 {
+  align-items: center;
+  appearance: button;
+  background-color: #8ac926;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: "RM Neue", sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  padding: 10px 21px;
+  text-align: center;
+  text-transform: none;
+  transition: color .13s ease-in-out, background .13s ease-in-out, opacity .13s ease-in-out, box-shadow .13s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-3:active {
+  background-color: #8ac926;
+}
+
+.button-3:hover {
+  background-color: #96c944;
+}
+
+.blok {
+  visibility: hidden;
+}
+
+
+
+button:disabled,
+    button[disabled] {
+        border: 1px solid black;
+        background-color: grey;
+        color: white;
+        padding: 15px;
+        cursor: not-allowed;
+}
+
+#configLink{
+  text-decoration: none;
+  color: #fdbc08;
+  transition: .2s;
+}
+#configLink:hover{
+  text-decoration: none;
+  color: #006AE8;
+}
+#configLink::after{
+  content: ">";
+  display: inline;
+  margin-left: 2px;
+  transition: .2s;
+}
+
+
+#configLink:hover::after{
+  margin-left: 5px;
+}
+
+#configLink.hidden{
+  display: none;
+}
