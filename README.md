@@ -1,6 +1,7 @@
 # IoT Gas and Flame Detection System
 
-![Project Demo](link_to_youtube_video_thumbnail)
+![Project Demo](https://github.com/oussamaWebDev/Safe_Home_Monitoring/assets/23003724/7dbf7a64-eda6-419b-9e42-4f1025191d1f)
+
 
 ## Introduction
 
@@ -38,7 +39,7 @@ The primary goal of this project is to develop a gas and flame detection system 
 5. Configure the WiFi module with your network credentials.
 6. Run the system and observe its gas and flame detection capabilities.
 
-For a more detailed explanation and demonstration, check out our [project video on YouTube](link_to_youtube_video) and read the complete report (in French) [here](link_to_report_pdf).
+For a more detailed explanation and demonstration, check out our [project video on YouTube](https://youtu.be/4ekYBpGVJg8). <!-- and read the complete report (in French) [here](link_to_report_pdf)-->
 
 ## Conclusion
 
